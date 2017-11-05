@@ -13,7 +13,12 @@
 # limitations under the License.
 #
 
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/NovaLauncher)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Telegram)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Pornograph)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Adaway)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Fdroid)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Focus)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Lawnchair)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/PixelTheme)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/StockTheme)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Substratum)
