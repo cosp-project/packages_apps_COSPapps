@@ -13,6 +13,7 @@
 # limitations under the License.
 #
 
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/PornHub)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Telegram)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Pornograph)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Adaway)
