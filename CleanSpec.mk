@@ -14,5 +14,5 @@
 #
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/GBoard)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/VPNhub)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Lawnchair)
 
