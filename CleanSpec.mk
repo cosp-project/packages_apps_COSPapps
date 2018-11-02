@@ -13,7 +13,8 @@
 # limitations under the License.
 #
 
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/GBoard)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/priv-app/Lawnchair)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/GBoard)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Focus)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Wireguard)
 
